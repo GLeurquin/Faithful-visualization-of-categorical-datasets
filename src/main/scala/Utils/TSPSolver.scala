@@ -1,5 +1,10 @@
 package thesis.utils
 
+/**
+ * Code translated from the python code available on https://github.com/dmishin/tsp-solver
+ * under the Free Domain license
+ */
+
 import breeze.linalg._
 import breeze.numerics._
 import scala.collection.mutable.ArrayBuffer
