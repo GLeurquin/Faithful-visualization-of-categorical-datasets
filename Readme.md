@@ -19,7 +19,7 @@ categorical matrices using convolution. The results of the algorithm can be used
 
 ## Getting Started
 
-sbt run, and choose the UI.
+```sbt run``` and choose the UI.
 
 You can load existing datasets or load your own with the following .backup format:
 
@@ -56,7 +56,7 @@ Scala 2.11.7 and SBT
 
 ## Running the tests
 
-Simply run sbt test
+Simply run ```sbt test```
 
 
 ## Built With
