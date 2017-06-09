@@ -50,8 +50,9 @@ each row is a sparse representation of that row. This is a space separated list 
 
 ### Prerequisites
 
-Scala 2.11.7 and SBT
-
+[Scala](https://www.scala-lang.org/) 2.11.7
+[R](https://www.r-project.org/) 3.2.3
+[Python](https://www.python.org/) 3.5
 
 
 ## Running the tests
@@ -65,9 +66,9 @@ Simply run ```sbt test```
 
 ## Authors
 
-* **Guillaume Leurquin** - *Student*
-* **Thomas Bollen** - *Student*
-* **Siegfried Nijssen**  - *Supervisor*
+* **[Guillaume Leurquin](https://github.com/GLeurquin/)** - *Student*
+* **[Thomas Bollen](https://github.com/bollent)** - *Student*
+* **[Siegfried Nijssen](http://liacs.leidenuniv.nl/~nijssensgr/)**  - *Supervisor*
 
 See also the list of [contributors](https://github.com/GLeurquin/Faithful-visualization-of-categorical-datasets/graphs/contributors) who participated in this project.
 
