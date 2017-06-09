@@ -67,7 +67,7 @@ Simply run sbt test
 * **Thomas Bollen** - *Student*
 * **Siegfried Nijssen**  - *Supervisor*
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/GLeurquin/Faithful-visualization-of-categorical-datasets/graphs/contributors) who participated in this project.
 
 ## License
 
