@@ -599,8 +599,7 @@ trait MyMatrixLike{
 	*	@return (needs row labels, needs col labels)
 	*/
 	private def needsLabels:(Boolean, Boolean) = {
-		if(desc.contains("UCL")) (true, false)
-		else if(desc.contains("football")) (true, true)
+		if(desc.contains("football")) (true, true)
 		else if(desc.contains("news")) (true, true)
 		else if(desc.contains("mushrooms")) (true, false)
 		else (false, false)
@@ -629,11 +628,9 @@ trait MyMatrixLike{
 			// Start by printing all the col labels
 			p.println(s"$needsLabelsCoding " + (0 until cols).map(c => tipX(c).replaceAll(" ","|%|")).mkString(" "))
 
-			val isUCL = desc.contains("UCL")
 			// Then print each row and with its label first
 			(0 until rows).foreach{r => 
-				val tip = 	if(isUCL) tipY(r).split(" - ").last.stripSuffix(")")
-							else tipY(r)
+				val tip = tipY(r)
 				p.print(tip.replaceAll(" ", "|%|"))
 				p.print(" ")
 				(0 until cols).foreach{c => 
