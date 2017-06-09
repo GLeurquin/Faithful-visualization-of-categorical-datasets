@@ -1,4 +1,4 @@
-# Project Title
+# Faithful visualization of categorical data
 
 This project was done as a master thesis in computer science. 
 
@@ -33,18 +33,18 @@ The format for the .backup files is the following:
 * 1rst row:
 text describing the dataset
 * 2nd row: 
-<number of rows> <number of cols> <number of categories (1 for binary, more for categorical)> <1 if colors should not be changed, 0 otherwise>
+*number of rows* *number of cols* *number of categories (1 for binary, more for categorical)* *1 if colors should not be changed, 0 otherwise*
 * 3rd row:
-The order of the rows, space separated. There must be <number of rows> unique values from 0 to <number of rows>-1. Value v at index i means that row v (in the matrix described here after) is at index i of the matrix. In the simplest case, there is no permutation and this is a space separated list from 0 to <number of rows>-1. 
+The order of the rows, space separated. There must be *number of rows* unique values from 0 to *number of rows*-1. Value v at index i means that row v (in the matrix described here after) is at index i of the matrix. In the simplest case, there is no permutation and this is a space separated list from 0 to *number of rows*-1. 
 * 4th row:
-The order of the columns, space separated. There must be <number of columns> unique values from 0 to <number of columns>-1. Value v at index i means that column v (in the matrix described here after) is at index i of the matrix. In the simplest case, there is no permutation and this is a space separated list from 0 to <number of columns>-1.
+The order of the columns, space separated. There must be *number of columns* unique values from 0 to *number of columns*-1. Value v at index i means that column v (in the matrix described here after) is at index i of the matrix. In the simplest case, there is no permutation and this is a space separated list from 0 to *number of columns*-1.
 * 5th row:
-space separated column labels. There must be <number of cols> labels. The labels correspond to the matrix described here after (not the permuted matrix).
+space separated column labels. There must be *number of cols* labels. The labels correspond to the matrix described here after (not the permuted matrix).
 * 6th row:
-space separated row labels. There must be <number of rows> labels. The labels correspond to the matrix described here after (not the permuted matrix).
-* <number of rows> following rows:
-each row is a sparse representation of that row. This is a space separated list of the column indices that have value 1. This represents the first binary matrix. The last row is 5 dashes (-----). There must be <number of columns> values.
-* repeat the above section <number of categories> times. Each matrix represents one value of the attributes, one hot encoded.
+space separated row labels. There must be *number of rows* labels. The labels correspond to the matrix described here after (not the permuted matrix).
+* *number of rows* following rows:
+each row is a sparse representation of that row. This is a space separated list of the column indices that have value 1. This represents the first binary matrix. The last row is 5 dashes (-----). There must be *number of columns* values.
+* repeat the above section *number of categories* times. Each matrix represents one value of the attributes, one hot encoded.
 
 ### Prerequisites
 
@@ -60,11 +60,6 @@ Simply run sbt test
 ## Built With
 
 * [SBT](http://www.scala-sbt.org/) - Dependency Management
-
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
