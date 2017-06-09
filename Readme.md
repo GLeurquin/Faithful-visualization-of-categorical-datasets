@@ -50,9 +50,9 @@ each row is a sparse representation of that row. This is a space separated list 
 
 ### Prerequisites
 
-[Scala](https://www.scala-lang.org/) 2.11.7
-[R](https://www.r-project.org/) 3.2.3
-[Python](https://www.python.org/) 3.5
+* [Scala](https://www.scala-lang.org/) 2.11.7
+* [R](https://www.r-project.org/) 3.2.3
+* [Python](https://www.python.org/) 3.5
 
 
 ## Running the tests
