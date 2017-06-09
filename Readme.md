@@ -11,7 +11,7 @@ to have fewer elements to display. However, the quality of this compression
 greatly depends on the structure of the data.
 Given a binary matrix represented by white and black pixels, well separated
 groups of pixels (e.g. black and white points are respectively gathered together)
-gives a lower loss of information because summarizing that data consisely is
+gives a lower loss of information because summarizing that data concisely is
 easier. Moreover, reorganizing the rows and columns of a dataset can give
 interesting insights in structures hidden within the data.
 In this thesis, we introduce an innovative algorithm to reorder binary and
