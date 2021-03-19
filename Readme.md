@@ -2,6 +2,8 @@
 
 This project was done as a master thesis in computer science. 
 
+The paper linked to this code is available [here](https://link.springer.com/chapter/10.1007/978-3-030-01768-2_6), and the master thesis [here](https://dial.uclouvain.be/downloader/downloader.php?pid=thesis%3A10643&datastream=PDF_01)
+
 Data is today collected in very large amounts from various kind of sources:
 shopping, genetic tests, etc. Given the amount of data collected, one might be
 interested in visualizing that data in a meaningful way.
